@@ -1,5 +1,4 @@
-﻿@charset "UTF-8";
-
+﻿
 If the value of the html input tag is passed to PHP and the pass / fail is compared,
 the PHP input tag can be automatically filled and logged in. 
 The operation is simple: first open the <hash-pass-test-test.html> of the html file,
