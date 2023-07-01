@@ -10,7 +10,7 @@
 <?php
 session_start();
 $password = $_GET["password"];
-$email = $_GET["password"];
+$email = $_GET["email"];
 $origin_txt = 'admin';
 $hashed_txt = $password;
 $origin_txt = password_hash($origin_txt, PASSWORD_DEFAULT);
