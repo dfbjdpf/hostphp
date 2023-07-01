@@ -28,7 +28,7 @@ if(isset($_POST["login"])) {
   if($_GET["email"] != "admin@admin.com" || $_GET["password"] != "admin") {
      $logout = "hash-pass-test-test.html";
      header("Location: {$logout}");
-     exit;
+     exit;  
   }
 ?>
 
