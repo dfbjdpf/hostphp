@@ -11,7 +11,7 @@
 session_start();
 $password = $_GET["password"];
 $email = $_GET["email"];
-$origin_txt = 'admin';
+$origin_txt = "admin";
 $hashed_txt = $password;
 $origin_txt = password_hash($origin_txt, PASSWORD_DEFAULT);
 var_dump(password_verify($password, $origin_txt));
