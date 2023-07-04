@@ -1,7 +1,7 @@
 ﻿
 If the value of the html input tag is passed to PHP and the pass or fail is compared,
 the PHP input tag can be automatically filled and logged in. <.html> and <.php> files 
-must always be opened on a web servers that support PHP, such as Apache.
+must always be opened on a web server that support PHP, such as Apache.
 The operation is simple, first open the <hash-pass-test-test.html> of the html file,
 then enter email, password, and tap submit. If email and password are together, the PHP 
 file <index.php> will be automatically opened and the email and password will be 
