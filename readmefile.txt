@@ -13,4 +13,6 @@ We cannot guarantee the security of your password. This is because email address
 passwords are already built in by setting.
 Password hashing and authentication are possible, but it is suitable for simple access 
 authorization that allows you to access the target page after authentication.
+Error comments display is hidden, however, it can be selected from #error_reporting(0); 
+error reporting hidden or error_reporting(E_ALL); show.
 
