@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-#error_reporting(0); error reporting hidden or error_reporting(E_ALL); show 
+error_reporting(0); #error reporting hidden or error_reporting(E_ALL); show 
 session_start();
 $password = $_GET["password"];
 $email = $_GET["email"];
